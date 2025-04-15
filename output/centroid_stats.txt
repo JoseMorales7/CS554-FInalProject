@@ -1,0 +1,3 @@
+Embedding dimensions: 128
+Mean of first 5 dimensions: 0.0062, -0.0238, 0.0066, 0.0009, 0.0112
+Std of first 5 dimensions: 0.3255, 0.3318, 0.3292, 0.3478, 0.3227

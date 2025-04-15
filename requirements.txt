@@ -1,0 +1,7 @@
+networkx
+pandas
+numpy
+matplotlib
+karateclub
+plotly
+scikit-learn
