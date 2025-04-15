@@ -59,13 +59,3 @@ similarity_matrix = cosine_similarity(centroid_df.values)
 similarity_df = pd.DataFrame(similarity_matrix, index=centroid_df.index, columns=centroid_df.index)
 similarity_df.to_csv("output/inter_community_similarity.csv")
 print("Saved to output/inter_community_similarity.csv")
-
-# Heatmap visualization
-print("Generating heatmap for community similarity...")
-plt.figure(figsize=(10, 8))
-sns.heatmap(similarity_df.astype(float), cmap="viridis", square=True, cbar_kws={"label": "Cosine Similarity"})
-plt.title("Inter-community Similarity (Cosine)")
-plt.tight_layout()
-plt.savefig("output/community_similarity_heatmap.png")
-plt.close()
-print("Saved heatmap to output/community_similarity_heatmap.png")
