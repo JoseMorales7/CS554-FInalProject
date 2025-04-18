@@ -1,0 +1,5 @@
+Total communities: 4193
+Largest community size: 3677
+Smallest community size: 2
+Median size: 4.0
+Mean size: 23.29
